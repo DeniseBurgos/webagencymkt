@@ -1,0 +1,33 @@
+.pcImage {
+width: 298px;
+height: 193px;
+padding-bottom: 85px;
+}
+
+.services {
+    padding-top: 100px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background:linear-gradient(180deg, #1a1826, #413b5e);
+}
+
+.services p {
+    font-size: 20px;
+    padding-bottom: 60px;
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: aliceblue;
+}
+
+@media (min-width:800px){
+.pcImage {
+    width:596px;
+    height: 386px;
+    padding-bottom: 85px;
+    }
+.services {
+    font-size: 2em;
+}
+}
